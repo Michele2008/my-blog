@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog dei Prodotti Amazon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        main {
+            width: 80%;
+            margin: 2em auto;
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .post {
+            margin-bottom: 2em;
+        }
+        .post img {
+            max-width: 100%;
+            height: auto;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .post a {
+            color: #0066c0;
+            text-decoration: none;
+        }
+        .post a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog dei Prodotti Amazon</h1>
+    </header>
+    <main>
+        <article class="post">
+            <h2>Prodotto 1: Echo Dot (4ª generazione)</h2>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71yzJoE7WlL._AC_SL1000_.jpg" alt="Echo Dot (4ª generazione)">
+            <p>Il nuovo Echo Dot di quarta generazione è il nostro altoparlante intelligente più venduto, con un design compatto e un suono sorprendente. <a href="https://www.amazon.it/dp/B084J4MZK6?tag=tuoaffiliatetag-21">Compra ora su Amazon</a></p>
+        </article>
+        <article class="post">
+            <h2>Prodotto 2: Kindle Paperwhite</h2>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/61D8C9vklkL._AC_SL1000_.jpg" alt="Kindle Paperwhite">
+            <p>Kindle Paperwhite è il nostro Kindle più venduto, con una luce integrata regolabile che ti permette di leggere comodamente per ore. <a href="https://www.amazon.it/dp/B07DPP1FT2?tag=tuoaffiliatetag-21">Compra ora su Amazon</a></p>
+        </article>
+        <!-- Aggiungi altri articoli qui -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Blog dei Prodotti Amazon. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
